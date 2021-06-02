@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8">
+	<title>Lada portfolio</title>
+	<link rel="stylesheet" href="Документ/css lada/portfolio.css">
+</head>
+<body>
+<header>
+<h1 align="center">Мій сайт портфоліо</h1>
+<address>
+	<div>Країна: Україна</div>
+	<div>Телефон:+380671976188</div>
+</address>
+</header>
+
+<main>
+	<aside>
+<hr color = "SeaGreen">
+<div>
+	<h2 class="selection-tittle"> Мої Koнтакти </h2>
+	<form action="auth.php" method="post">
+	<input type="text" name="name" id="name" placeholder="Введіть ім'я">
+	<input type="pasword" name="pasword" id="pasword"placeholder="Введіть пароль">
+	<input type="submit"  id="submit" value="Увійти" >
+	<input type="reset"  id="submit" value="Скинути" >
+	</form>
+	<div>
+	 <h3> Я у соцмережах</h3>
+	 <ul>
+	 	<li><a href="https://www.instagram.com/ladaladovainst/" target="_blank" title="перейти"> Я у інстаграм</a></li>
+	 	<li><a href="https://www.facebook.com/profile.php?id=100011299631561" target="_blank"title="перейти">Я у фейсбук</a></li>
+	 	<li><a href="https://www.tiktok.com/@ladaladovatiktok?lang=ru-RU" target="_blank"title="перейти">Я у Тік ток</a></li>
+	 </ul>
+</div> </div>
+</aside>
+<nav>
+	<ul>
+	<li> <a href="">Головна</a>  </li>
+	<li> <a href="">Портфоліо </a>  </li>
+	<li> <a href="">Блог </a>  </li>
+	</ul>
+</nav>
+
+<section>
+	<h2>Про мене </h2>
+<div align="center">
+	<img src="foto.JPG" border="2" width="800"  height="550" alt="Моє фото" title="Лада Тивончук">
+</div>
+<div> <h3> Моя біографія </h3>
+<p> Мене звати Тивончук Лада Олегівна. Народилась 23.09.97....</p>
+<p> З 2003 -2014 навчалась у ЗОШ№23.... </p>
+</div>
+</section>
+<section>
+<div>
+	<h2 align="center"> Моя статистика </h2>
+</div>
+<table border="01%" cellpadding="10" cellspacing="1" align="center">
+<tr bgcolor="green">
+<th> Всі проекти</th>	
+<th> Зроблено </th>	
+<th> Куплено </th>	
+</tr>	
+<tr>
+<td> Статичних </td>	
+<td> 80 </td>	
+<td> 78 </td>	
+</tr>
+<tr>
+<td> Адаптивних</td>	
+<td> 50 </td>	
+<td> 30 </td>	
+</tr>
+</table>
+</section>
+</div>
+
+
+<div>
+	<h2 class="selection-tittle"> Замовити у мене сайт </h2>
+	<form action="order.php" method="post">
+
+<div>
+	<label>  <span>Ім'я клієнта</span> 
+	<input type="text" name="client_name" placeholder="Введіть ім'я">
+	</label>
+</div>
+
+<div>
+	<label> <span> Емейл клієнта</span>
+    <input type="text" name="client_amail" placeholder="Введіть емейл">
+    </label>
+ </div>
+			 <div>
+			<label for:="gender"> Ваша стать</label>
+
+			    <input type="radio" id="gender" name="gender" value="Male">М
+			    <input type="radio" id="gender" name="gender" value="Female">Ж
+			</div>
+
+			<div>
+			<label> <span>Додаткові можливості</span></label>	
+
+          <input type="checkbox" name="extra" value="adaptive" checked>
+         <span> Адаптивність </span>
+          <input type="checkbox" name="extra" value="hosting" checked>
+         <span> Установка на хостинг</span>
+          <input type="checkbox" name="extra" value="suport" checked>
+         <span> Подальша підтримка</span>
+          <input type="checkbox" name="extra" value="admin" checked>
+          <span>Установка адмін панелі</span>
+
+</div>
+<div> 
+<label> 
+
+
+
+</label>
+<span> Тип сайту </span>
+<select name="type">   
+<option value="eshop"> Інтернет магазин </option>
+<option value="landing"> Лендінг </option>
+<option value="card"> Сайт- візитка</option>
+</select>
+</div>
+<div>
+<label> <span>Пикладіть ескіз</span></label>
+<input type="file" name="file">
+</div>
+<div>
+	<input type="hidden" name="time" value="time_count">
+</div>
+<div>
+
+<textarea name="conect" cols="30" rows="20" maxlength="200" placeholder="Додаткові побажання"></textarea>	
+</div>
+<div>
+<input type="submit" value="Надіслати">	
+<input type="reset" value="Скинути">
+
+
+
+
+</div>
+    </form>
+</div>
+</main>
+<footer> Сайт заборонено копіювати</footer>
+</body>
+</html>
